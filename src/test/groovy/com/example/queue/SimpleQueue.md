@@ -1,0 +1,21 @@
+# SimpleQueue
+
+- Zero
+    - is empty after queue creation
+    - size is 0 after queue creation
+- One
+    - is not empty after add 1 element
+    - size is 1 after add 1 element
+    - size is 0 after add and peek
+    - return to empty after add and peek
+    - should peek added element
+- Many
+    - size increase after each add
+    - size decrease after each peek
+- Boundary behaviors
+    - peek return null after queue creation
+- Interface definition
+- Exceptional behaviors
+    - add to a full queue
+- Simple scenarios, solutions
+    - peek should return same order as add
